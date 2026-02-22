@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koren &mdash; Today's Harvest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="logo">KOREN</a>
+  <div class="nav-links">
+    <a href="marketplace.html">MARKETPLACE</a>
+    <a href="farmers.html">FARMERS</a>
+    <a href="about.html">ABOUT US</a>
+  </div>
+  <div class="mobile-menu-icon"><img src="icons/dots.svg" alt="Menu"></div>
+</nav>
+
+<div class="harvest-ticker">
+  <div class="harvest-ticker__track">
+    <span class="hticker-item">Beets harvested yesterday <span class="hticker-sep">&#9679;</span> Olivia Reynolds &bull; Lviv</span>
+    <span class="hticker-item">Eggs packed this morning <span class="hticker-sep">&#9679;</span> Noah Harrison &bull; Zhytomyr</span>
+    <span class="hticker-item">Last 18 baskets <span class="hticker-sep">&#9679;</span> Sophia Mitchell &bull; Ivano-Frankivsk</span>
+    <span class="hticker-item">Broccoli &mdash; 52 kg in stock <span class="hticker-sep">&#9679;</span> Ethan Carter &bull; Poltava</span>
+    <span class="hticker-item">Green Apples &mdash; bestseller this week <span class="hticker-sep">&#9679;</span> James Whitaker &bull; Vinnytsia</span>
+    <span class="hticker-item">Order cutoff today at 10:00 for same-day delivery</span>
+    <span class="hticker-item">Beets harvested yesterday <span class="hticker-sep">&#9679;</span> Olivia Reynolds &bull; Lviv</span>
+    <span class="hticker-item">Eggs packed this morning <span class="hticker-sep">&#9679;</span> Noah Harrison &bull; Zhytomyr</span>
+    <span class="hticker-item">Last 18 baskets <span class="hticker-sep">&#9679;</span> Sophia Mitchell &bull; Ivano-Frankivsk</span>
+    <span class="hticker-item">Broccoli &mdash; 52 kg in stock <span class="hticker-sep">&#9679;</span> Ethan Carter &bull; Poltava</span>
+    <span class="hticker-item">Green Apples &mdash; bestseller this week <span class="hticker-sep">&#9679;</span> James Whitaker &bull; Vinnytsia</span>
+    <span class="hticker-item">Order cutoff today at 10:00 for same-day delivery</span>
+  </div>
+</div>
+
+<div class="mkt-hero">
+  <div class="mkt-masthead">
+    <div class="mkt-masthead__edition" id="heroDate">Saturday, 21 February 2026 &nbsp;&bull;&nbsp; Vol.5 No.52 &nbsp;&bull;&nbsp; 47 Farmers Active</div>
+    <div class="mkt-masthead__cutoff">
+      <span class="cutoff-label">Same-day cutoff in</span>
+      <span class="cutoff-timer" id="countdownTimer">00:00:00</span>
+      <span class="cutoff-badge">same-day</span>
+    </div>
+  </div>
+  <div class="mkt-headline">
+    <h1 class="mkt-headline__title">Today's<br><em>Harvest.</em></h1>
+    <div class="mkt-headline__aside">
+      <div class="live-pill">
+        <span class="live-dot"></span>
+        <span>Live inventory &mdash; updated daily</span>
+      </div>
+      <p class="mkt-headline__tagline">
+        Every product below was picked within the last 48 hours. Named farmer, real address, zero middlemen.
+      </p>
+    </div>
+  </div>
+  <div class="mkt-stats">
+    <div class="mkt-stat">
+      <div class="mkt-stat__val">6</div>
+      <div class="mkt-stat__lbl">Products<br>today</div>
+    </div>
+    <div class="mkt-stat">
+      <div class="mkt-stat__val">5</div>
+      <div class="mkt-stat__lbl">Farmers<br>harvesting</div>
+    </div>
+    <div class="mkt-stat">
+      <div class="mkt-stat__val">&lt;8h</div>
+      <div class="mkt-stat__lbl">Farm-to-door<br>Kyiv metro</div>
+    </div>
+    <div class="mkt-stat">
+      <div class="mkt-stat__val">0</div>
+      <div class="mkt-stat__lbl">Middlemen<br>in the chain</div>
+    </div>
+  </div>
+</div>
+
+<div class="fp-section">
+  <div class="fp-spread">
+    <div class="fp-left">
+      <div class="fp-left__wm">EGGS</div>
+      <div>
+        <div class="fp-label">This week&rsquo;s top pick</div>
+        <h2 class="fp-name">Brown<br>Eggs</h2>
+        <div class="fp-byline">Noah Harrison &bull; Zhytomyr Region &bull; Free-Range</div>
+        <p class="fp-desc">Four hectares of open pasture. Two hundred hens. No antibiotics since day one. The deep-orange yolks are a direct result of genuine outdoor access &mdash; something no battery egg can replicate.</p>
+        <div class="fp-tags">
+          <span class="fp-tag fp-tag--solid">Free-Range</span>
+          <span class="fp-tag">No Hormones</span>
+          <span class="fp-tag">Non-GMO Feed</span>
+          <span class="fp-tag">Rhode Island Red</span>
+        </div>
+      </div>
+      <div class="fp-stats">
+        <div><span class="fp-stat__val">78</span><span class="fp-stat__lbl">kcal per egg</span></div>
+        <div><span class="fp-stat__val">6.3g</span><span class="fp-stat__lbl">protein per egg</span></div>
+        <div><span class="fp-stat__val">120</span><span class="fp-stat__lbl">dozen in stock</span></div>
+      </div>
+    </div>
+    <div class="fp-right">
+      <div class="fp-right__badge">Packed Today</div>
+      <img src="images/products/eggs.png" alt="Brown Eggs">
+      <div class="fp-right__price">4.50 &euro;<small>per dozen</small></div>
+    </div>
+  </div>
+</div>
+
+<div class="browse-section">
+  <div class="browse-top">
+    <h2 class="browse-title">Browse <em>all products</em></h2>
+    <span class="browse-count">6 products &bull; 5 farmers</span>
+  </div>
+  <div class="cat-chips" id="catChips">
+    <button class="cat-chip is-active" data-cat="all">All</button>
+    <button class="cat-chip" data-cat="vegetables">Vegetables</button>
+    <button class="cat-chip" data-cat="fruits">Fruits</button>
+    <button class="cat-chip" data-cat="eggs-dairy">Eggs &amp; Dairy</button>
+    <button class="cat-chip" data-cat="berries">Berries</button>
+  </div>
+</div>
+
+<section class="marketplace-header">
+  <div class="filter-bar">
+    <div class="filter-item dropdown" data-filter="category">
+      <span class="filter-label">Category</span>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      <div class="dropdown-panel">
+        <button class="dropdown-opt is-active" data-value="all">All categories</button>
+        <button class="dropdown-opt" data-value="vegetables">Vegetables</button>
+        <button class="dropdown-opt" data-value="fruits">Fruits</button>
+        <button class="dropdown-opt" data-value="eggs-dairy">Eggs &amp; Dairy</button>
+        <button class="dropdown-opt" data-value="berries">Berries</button>
+      </div>
+    </div>
+    <div class="filter-item dropdown" data-filter="farmer">
+      <span class="filter-label">Farmer</span>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      <div class="dropdown-panel">
+        <button class="dropdown-opt is-active" data-value="all">All farmers</button>
+        <button class="dropdown-opt" data-value="olivia-reynolds">Olivia Reynolds</button>
+        <button class="dropdown-opt" data-value="ethan-carter">Ethan Carter</button>
+        <button class="dropdown-opt" data-value="james-whitaker">James Whitaker</button>
+        <button class="dropdown-opt" data-value="noah-harrison">Noah Harrison</button>
+        <button class="dropdown-opt" data-value="sophia-mitchell">Sophia Mitchell</button>
+      </div>
+    </div>
+    <div class="filter-item price-filter" data-filter="price">
+      <span class="filter-label">Price</span>
+      <div class="price-segments">
+        <button class="price-seg is-active" data-value="all" title="All prices">All</button>
+        <button class="price-seg" data-value="low" title="Up to 2 &euro;">Low</button>
+        <button class="price-seg" data-value="medium" title="2&ndash;3.5 &euro;">Mid</button>
+        <button class="price-seg" data-value="high" title="Above 3.5 &euro;">High</button>
+      </div>
+    </div>
+    <div class="filter-item dropdown" data-filter="sort">
+      <span class="filter-label">Sort by</span>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+      <div class="dropdown-panel dropdown-panel--right">
+        <button class="dropdown-opt is-active" data-value="popular">Most Popular</button>
+        <button class="dropdown-opt" data-value="price-asc">Price: Low &#8594; High</button>
+        <button class="dropdown-opt" data-value="price-desc">Price: High &#8594; Low</button>
+        <button class="dropdown-opt" data-value="newest">Newest First</button>
+      </div>
+    </div>
+  </div>
+  <div class="active-filters" id="activeFilters" style="display:none;"></div>
+</section>
+
+<div class="no-results" id="noResults" style="display:none;">
+  Nothing matches those filters. <button id="clearAllFilters">Clear all</button>
+</div>
+
+<section class="marketplace-grid-section">
+  <div class="product-grid" id="grid">
+
+    <article class="product-card" data-id="1" data-category="vegetables" data-farmer="olivia-reynolds" data-price="2.50" data-sort-score="92">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/beets.png" alt="Organic Beets"></div>
+        <h3 class="prod-title">Organic Beets</h3>
+        <p class="prod-author">by Olivia Reynolds</p>
+        <div class="prod-price">2.50 &#8364; / kg</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">Certified Organic</span><span class="tag tag--warm">Seasonal</span><span class="tag">Local</span></div>
+          <p class="details-desc">Sweet, earthy beets from Olivia Reynolds' 12-hectare farm outside Lviv, grown in chemical-free black-earth soil. The greens are edible &mdash; treat them like chard. Ideal for roasting, borsch, cold-press juicing, or vibrant salads.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Harvested:</strong> Yesterday</div><div class="meta-item"><strong>Origin:</strong> Lviv Region</div><div class="meta-item"><strong>In stock:</strong> 47 kg</div></div>
+          <div class="details-season"><span class="season-label">In season</span><div class="season-bar"><span class="month" data-active="false">J</span><span class="month" data-active="false">F</span><span class="month" data-active="false">M</span><span class="month" data-active="false">A</span><span class="month" data-active="false">M</span><span class="month" data-active="false">J</span><span class="month" data-active="true">J</span><span class="month" data-active="true">A</span><span class="month" data-active="true">S</span><span class="month" data-active="true">O</span><span class="month" data-active="true">N</span><span class="month" data-active="false">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per 100&thinsp;g</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">43</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">1.6g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">9.6g</span><span class="nut-lbl">carbs</span></div><div class="nut-item"><span class="nut-val">2.8g</span><span class="nut-lbl">fibre</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Roast whole at 200&deg;C for 45 min. Peel, slice with goat cheese, candied walnuts and balsamic drizzle. Serves 2 in 50 min.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Paper bag, compostable</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge 2&ndash;4&deg;C, up to 2 weeks</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>Next-day: Kyiv, Lviv, Dnipro</span></div><div class="info-block"><span class="info-icon"></span><strong>Soil</strong><span>Black earth, no-till</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 kg</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 2.50 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+    <article class="product-card" data-id="2" data-category="vegetables" data-farmer="ethan-carter" data-price="1.20" data-sort-score="78">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/lettuce.png" alt="Fresh Lettuce"></div>
+        <h3 class="prod-title">Fresh Lettuce</h3>
+        <p class="prod-author">by Ethan Carter</p>
+        <div class="prod-price">1.20 &#8364; / kg</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">No Pesticides</span><span class="tag tag--warm">Seasonal</span><span class="tag">Open Field</span></div>
+          <p class="details-desc">Crisp heads harvested the same morning on Ethan's open-field farm near Poltava. Grown with naturally composted fertiliser only. Three varieties in rotation: butterhead, romaine, and oak leaf.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Harvested:</strong> Today</div><div class="meta-item"><strong>Origin:</strong> Poltava Region</div><div class="meta-item"><strong>In stock:</strong> 30 kg</div></div>
+          <div class="details-season"><span class="season-label">In season</span><div class="season-bar"><span class="month" data-active="false">J</span><span class="month" data-active="false">F</span><span class="month" data-active="false">M</span><span class="month" data-active="true">A</span><span class="month" data-active="true">M</span><span class="month" data-active="true">J</span><span class="month" data-active="true">J</span><span class="month" data-active="true">A</span><span class="month" data-active="true">S</span><span class="month" data-active="true">O</span><span class="month" data-active="false">N</span><span class="month" data-active="false">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per 100&thinsp;g</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">15</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">1.4g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">2.1g</span><span class="nut-lbl">carbs</span></div><div class="nut-item"><span class="nut-val">1.3g</span><span class="nut-lbl">fibre</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Classic Caesar: toss romaine with anchovy-lemon dressing, shaved parmesan and sourdough croutons. Ready in 10 min.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Open crate, no plastic</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge 0&ndash;4&deg;C, up to 5 days</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>Same-day Poltava, next-day Kyiv</span></div><div class="info-block"><span class="info-icon"></span><strong>Irrigation</strong><span>Rainwater collected on-farm</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 kg</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 1.20 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+    <article class="product-card" data-id="3" data-category="fruits" data-farmer="james-whitaker" data-price="2.20" data-sort-score="88">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/apples.png" alt="Green Apples"></div>
+        <h3 class="prod-title">Green Apples</h3>
+        <p class="prod-author">by James Whitaker</p>
+        <div class="prod-price">2.20 &#8364; / kg</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">Orchard-Grown</span><span class="tag tag--coral">Bestseller</span><span class="tag">No Wax</span></div>
+          <p class="details-desc">Tart, ultra-crunchy Granny Smith from James Whitaker's 30-year family orchard in Vinnytsia. Zero spray, zero wax coating &mdash; safe to eat skin-on. High malic acid keeps their shape when baked.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Harvested:</strong> 2 days ago</div><div class="meta-item"><strong>Origin:</strong> Vinnytsia Region</div><div class="meta-item"><strong>In stock:</strong> 85 kg</div></div>
+          <div class="details-season"><span class="season-label">In season</span><div class="season-bar"><span class="month" data-active="false">J</span><span class="month" data-active="false">F</span><span class="month" data-active="false">M</span><span class="month" data-active="false">A</span><span class="month" data-active="false">M</span><span class="month" data-active="false">J</span><span class="month" data-active="false">J</span><span class="month" data-active="false">A</span><span class="month" data-active="true">S</span><span class="month" data-active="true">O</span><span class="month" data-active="true">N</span><span class="month" data-active="true">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per 100&thinsp;g</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">52</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">0.3g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">11g</span><span class="nut-lbl">carbs</span></div><div class="nut-item"><span class="nut-val">2.4g</span><span class="nut-lbl">fibre</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Tarte Tatin: arrange sliced apples in caramel, cover with puff pastry, bake 190&deg;C / 30 min, flip. Serve with cr&egrave;me fra&icirc;che.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Wooden crate, 5 or 10 kg</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge or cellar, 3 weeks</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>2-day nationwide, refrigerated</span></div><div class="info-block"><span class="info-icon"></span><strong>Variety</strong><span>Granny Smith, hand-picked</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 kg</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 2.20 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+    <article class="product-card" data-id="4" data-category="eggs-dairy" data-farmer="noah-harrison" data-price="4.50" data-sort-score="95">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/eggs.png" alt="Brown Eggs"></div>
+        <h3 class="prod-title">Brown Eggs</h3>
+        <p class="prod-author">by Noah Harrison</p>
+        <div class="prod-price">4.50 &#8364; / dozen</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">Free-Range</span><span class="tag tag--warm">No Hormones</span><span class="tag">Non-GMO Feed</span></div>
+          <p class="details-desc">Noah Harrison's hens roam 4 hectares of open pasture in Zhytomyr, fed on non-GMO grain and kitchen scraps. No antibiotics &mdash; ever. The deep-orange yolks are a sign of genuine outdoor living.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Packed:</strong> Today</div><div class="meta-item"><strong>Origin:</strong> Zhytomyr Region</div><div class="meta-item"><strong>In stock:</strong> 120 dozen</div></div>
+          <div class="details-season"><span class="season-label">Available year-round</span><div class="season-bar"><span class="month" data-active="true">J</span><span class="month" data-active="true">F</span><span class="month" data-active="true">M</span><span class="month" data-active="true">A</span><span class="month" data-active="true">M</span><span class="month" data-active="true">J</span><span class="month" data-active="true">J</span><span class="month" data-active="true">A</span><span class="month" data-active="true">S</span><span class="month" data-active="true">O</span><span class="month" data-active="true">N</span><span class="month" data-active="true">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per egg (~60&thinsp;g)</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">78</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">6.3g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">5.3g</span><span class="nut-lbl">fat</span></div><div class="nut-item"><span class="nut-val">0.6g</span><span class="nut-lbl">carbs</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Soft-boil at a gentle simmer for exactly 6 min 30 sec. Serve on sourdough with butter and flaky salt. Or use the raw yolk in pasta carbonara &mdash; it becomes the sauce.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Recycled cardboard, 12-pack</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge, up to 3 weeks from lay</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>Next-day, padded packaging</span></div><div class="info-block"><span class="info-icon"></span><strong>Breed</strong><span>Rhode Island Red &times; Marans</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 dozen</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 4.50 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+    <article class="product-card" data-id="5" data-category="berries" data-farmer="sophia-mitchell" data-price="3.80" data-sort-score="89">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/strawberry.png" alt="Fresh Strawberries"></div>
+        <h3 class="prod-title">Fresh Strawberries</h3>
+        <p class="prod-author">by Sophia Mitchell</p>
+        <div class="prod-price">3.80 &#8364; / basket</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">Certified Organic</span><span class="tag tag--coral">Limited Stock</span><span class="tag">Greenhouse</span></div>
+          <p class="details-desc">Sophia Mitchell's strawberries use biological pest control only &mdash; no chemical sprays. Measured Brix score 11&ndash;13&deg; (supermarket average 7&deg;). Each basket is 400 g picked this morning.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Harvested:</strong> This morning</div><div class="meta-item"><strong>Origin:</strong> Ivano-Frankivsk</div><div class="meta-item"><strong>In stock:</strong> 18 baskets</div></div>
+          <div class="details-season"><span class="season-label">In season</span><div class="season-bar"><span class="month" data-active="false">J</span><span class="month" data-active="false">F</span><span class="month" data-active="false">M</span><span class="month" data-active="false">A</span><span class="month" data-active="true">M</span><span class="month" data-active="true">J</span><span class="month" data-active="true">J</span><span class="month" data-active="false">A</span><span class="month" data-active="false">S</span><span class="month" data-active="false">O</span><span class="month" data-active="false">N</span><span class="month" data-active="false">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per 100&thinsp;g</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">32</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">0.7g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">7.7g</span><span class="nut-lbl">carbs</span></div><div class="nut-item"><span class="nut-val">2.0g</span><span class="nut-lbl">fibre</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Hull and halve. Macerate with a pinch of sugar and aged balsamic for 20 min. Spoon over vanilla panna cotta or labneh. No cooking needed.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Pulp basket, 400 g, compostable</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge, consume within 2 days</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>Same-day only, refrigerated van</span></div><div class="info-block"><span class="info-icon"></span><strong>Variety</strong><span>Elsanta &amp; Clery, rotated</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 basket</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 3.80 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+    <article class="product-card" data-id="6" data-category="vegetables" data-farmer="ethan-carter" data-price="2.70" data-sort-score="81">
+      <div class="card-inner"><div class="card-preview">
+        <div class="prod-img"><img src="images/products/broccoli.png" alt="Broccoli"></div>
+        <h3 class="prod-title">Broccoli</h3>
+        <p class="prod-author">by Ethan Carter</p>
+        <div class="prod-price">2.70 &#8364; / kg</div>
+        <button class="btn-add">ADD TO CART</button>
+      </div><div class="card-details">
+        <div class="details-tabs"><button class="dtab is-active" data-tab="overview">Overview</button><button class="dtab" data-tab="nutrition">Nutrition</button><button class="dtab" data-tab="logistics">Delivery</button></div>
+        <div class="dtab-panel is-active" data-panel="overview">
+          <div class="details-tags"><span class="tag tag--green">No Fertilisers</span><span class="tag tag--warm">Seasonal</span><span class="tag">High Vit C</span></div>
+          <p class="details-desc">Dense, dark-green heads from Ethan's compost-fed beds in Poltava. Rich in vitamins C, K, folate, and sulforaphane. The stalk is just as nutritious as the head &mdash; don't discard it.</p>
+          <div class="details-meta"><div class="meta-item"><strong>Harvested:</strong> Yesterday</div><div class="meta-item"><strong>Origin:</strong> Poltava Region</div><div class="meta-item"><strong>In stock:</strong> 52 kg</div></div>
+          <div class="details-season"><span class="season-label">In season</span><div class="season-bar"><span class="month" data-active="false">J</span><span class="month" data-active="false">F</span><span class="month" data-active="false">M</span><span class="month" data-active="false">A</span><span class="month" data-active="false">M</span><span class="month" data-active="false">J</span><span class="month" data-active="false">J</span><span class="month" data-active="false">A</span><span class="month" data-active="true">S</span><span class="month" data-active="true">O</span><span class="month" data-active="true">N</span><span class="month" data-active="false">D</span></div></div>
+        </div>
+        <div class="dtab-panel" data-panel="nutrition">
+          <div class="details-nutrition"><p class="nutrition-label">Nutrition &middot; per 100&thinsp;g</p><div class="nutrition-row"><div class="nut-item"><span class="nut-val">34</span><span class="nut-lbl">kcal</span></div><div class="nut-item"><span class="nut-val">2.8g</span><span class="nut-lbl">protein</span></div><div class="nut-item"><span class="nut-val">6.6g</span><span class="nut-lbl">carbs</span></div><div class="nut-item"><span class="nut-val">2.6g</span><span class="nut-lbl">fibre</span></div></div></div>
+          <div class="details-recipe"><div class="recipe-header"><span class="recipe-icon"></span><strong>Quick recipe</strong></div><p>Char at 220&deg;C for 20 min until edges are dark. Toss hot with tahini, lemon and chilli. Finish with toasted pine nuts. 25 min total.</p></div>
+        </div>
+        <div class="dtab-panel" data-panel="logistics">
+          <div class="details-info-grid"><div class="info-block"><span class="info-icon"></span><strong>Packaging</strong><span>Paper sleeve, no plastic wrap</span></div><div class="info-block"><span class="info-icon"></span><strong>Storage</strong><span>Fridge loose, up to 7 days</span></div><div class="info-block"><span class="info-icon"></span><strong>Delivery</strong><span>Next-day nationwide; same-day Poltava</span></div><div class="info-block"><span class="info-icon"></span><strong>Carbon</strong><span>Avg 42 km farm-to-door</span></div></div>
+        </div>
+        <div class="details-cta"><div class="qty-selector"><button class="qty-minus">-</button><span>1 kg</span><button class="qty-plus">+</button></div><button class="btn-buy">ADD TO CART &mdash; 2.70 &euro;</button></div>
+        <div class="details-close-btn">&#215;</div>
+      </div></div>
+    </article>
+
+  </div>
+</section>
+
+<div class="trust-strip">
+  <div class="trust-item">
+    <span class="trust-icon"></span>
+    <div class="trust-text"><strong>Named farmer</strong><span>Every product has a real person and a real address behind it.</span></div>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon"></span>
+    <div class="trust-text"><strong>Harvested &lt;48h ago</strong><span>Nothing sits in a warehouse. We move it the same day it's picked.</span></div>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon"></span>
+    <div class="trust-text"><strong>&lt;8h farm-to-door</strong><span>Refrigerated last-mile. Kyiv metro orders arrive same day.</span></div>
+  </div>
+  <div class="trust-item">
+    <span class="trust-icon"></span>
+    <div class="trust-text"><strong>Zero plastic</strong><span>All packaging compostable or returnable. Platform-wide policy.</span></div>
+  </div>
+</div>
+
+<footer class="footer-cta">
+  <div class="socials">
+    <img src="icons/media/FacebookLogo.svg" alt="Facebook">
+    <img src="icons/media/YoutubeLogo.svg" alt="Youtube">
+    <a href="index.html" class="footer-logo">KOREN</a>
+    <img src="icons/media/XLogo.svg" alt="X">
+    <img src="icons/media/InstagramLogo.svg" alt="Instagram">
+  </div>
+</footer>
+
+<script src="./js/main-marketplace.js"></script>
+</body>
+</html>
